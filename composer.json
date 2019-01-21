@@ -1,0 +1,25 @@
+{
+    "name": "meshboxfoundation/php-mbfs-api",
+    "type": "library",
+    "description": "A client library for the MBFS API",
+    "keywords": ["mbfs"],
+    "homepage": "https://github.com/MeshBoxFoundation/php-mbfs-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vingo",
+            "email": "vingo@smartmesh.io",
+            "homepage": "http://smartmesh.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+	"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MBFoundation\\PhpMbfsApi\\": "src/"
+        }
+    }
+}
