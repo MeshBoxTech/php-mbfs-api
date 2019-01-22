@@ -36,8 +36,6 @@ Adds content to MBFS.
 $hash = $mbfs->add("Hi, I'm Vingo! Welcome to use MBFS!");
 ```
 
-
-
 #### cat
 
 Retrieves the contents of a single hash.
