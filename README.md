@@ -16,7 +16,7 @@ $ composer install
 ```
 
 ```PHP
-use Cloutier\PhpIpfsApi\MBFS;
+use MBFoundation\PhpIpfsApi\MBFS;
 
 // connect to mbfs daemon API server
 $mbfs = new MBFS("localhost", "8080", "5001"); // leaving out the arguments will default to these values
